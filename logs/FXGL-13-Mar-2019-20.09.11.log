@@ -1,0 +1,175 @@
+20:08:50.292 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+20:08:50.302 [JavaFX Application Thread] DEBUG GameApplication      - Logging settings
+Title: My First Game app
+Version: 0.1
+Width: 600
+Height: 600
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.scene.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+20:08:50.303 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+20:08:50.318 [JavaFX Application Thread] INFO  FXGL                 - FXGL-0.5.4 on DESKTOP
+20:08:50.320 [JavaFX Application Thread] INFO  FXGL                 - Source code and latest versions at: https://github.com/AlmasB/FXGL
+20:08:50.320 [JavaFX Application Thread] INFO  FXGL                 -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+20:08:50.321 [JavaFX Application Thread] DEBUG FXGL                 - FXGL started
+20:08:50.322 [JavaFX Application Thread] DEBUG FXGL                 - Initializing FXGL
+20:08:50.430 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+20:08:50.652 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+20:08:50.777 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+20:08:50.868 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 600.0 x 600.0
+20:08:50.869 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    600.0 x 600.0
+20:08:50.869 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+20:08:50.877 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+20:08:50.886 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/textures/fxgl_icon.png
+20:08:50.926 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+20:08:51.333 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (2.0, 25.0)
+20:08:51.334 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 600.0 x 600.0
+20:08:51.334 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+20:08:51.337 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 600.0 x 600.0
+20:08:51.338 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 602.0 x 625.0
+20:08:51.490 [ForkJoinPool.commonPool-worker-1] DEBUG FS                   - Loaded DesktopFSService
+20:08:51.491 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL                 - Loading FXGL system data
+20:08:51.517 [ForkJoinPool.commonPool-worker-1] DEBUG DesktopFSService     - Reading from: system/fxgl.bundle
+20:08:51.540 [ForkJoinPool.commonPool-worker-1] DEBUG Bundle               - Logging bundle: FXGL
+20:08:51.541 [ForkJoinPool.commonPool-worker-1] DEBUG Bundle               - FXGL.offline.timer.version.check=2019-03-10T17:04:45.363
+20:08:51.543 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL                 - Initializing state machine and application states
+20:08:51.547 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+20:08:51.563 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+20:08:51.583 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+20:08:51.589 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+20:08:51.614 [ForkJoinPool.commonPool-worker-1] DEBUG GameScene            - Game scene initialized: 600x600
+20:08:51.626 [ForkJoinPool.commonPool-worker-1] DEBUG GameWorld            - Game world initialized
+20:08:51.745 [ForkJoinPool.commonPool-worker-1] DEBUG PhysicsWorld         - Physics world initialized: appHeight=600, physics.ppm=50.0
+20:08:51.784 [ForkJoinPool.commonPool-worker-1] DEBUG Input                - Registered new binding: Pause - Esc
+20:08:51.887 [JavaFX Application Thread] DEBUG FXGL                 - Running preInit()
+20:08:51.890 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+20:08:51.890 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+20:08:51.893 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+20:08:51.894 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+20:08:51.894 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Right - D
+20:08:51.895 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Left - A
+20:08:51.895 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Up - W
+20:08:51.895 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Down - S
+20:08:51.896 [JavaFX Application Thread] DEBUG Input                - Registered new binding: shoot - Space
+20:08:51.898 [JavaFX Application Thread] INFO  FXGL                 - FXGL initialization took: 1.575 sec
+20:08:51.898 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+20:08:51.901 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+20:08:51.902 [JavaFX Application Thread] DEBUG GameApplication      - Starting new game
+20:08:51.902 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+20:08:51.904 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+20:08:51.919 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> LoadingState
+20:08:51.928 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+20:08:51.928 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing game world
+20:08:51.928 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Clearing physics world
+20:08:51.929 [FXGL Background Thread 1 ] DEBUG GameScene            - Clearing game scene
+20:08:51.930 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+20:08:52.080 [FXGL Background Thread 1 ] DEBUG GameScene            - Creating render group for layer: DEFAULT(100000)
+20:08:52.088 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/player.png
+20:08:52.098 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/enemyShip.png
+20:08:52.101 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+20:08:52.102 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+20:08:52.103 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+20:08:52.103 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.176 sec
+20:08:52.110 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+20:08:52.111 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+20:08:52.125 [JavaFX Application Thread] DEBUG AppStateMachine      - LoadingState -> PlayState
+20:08:52.546 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/textures/laserGreen.png
+20:08:53.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:54.011 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:54.268 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:54.497 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:54.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:54.925 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:55.764 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:55.959 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:56.174 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:56.385 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:56.575 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:56.783 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:56.988 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:57.191 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:57.399 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:57.598 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:57.992 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:58.190 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:58.446 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:58.690 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:58.911 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:59.118 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:59.327 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:59.536 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:59.749 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:08:59.950 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:00.139 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:00.328 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:00.512 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:00.727 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:00.915 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:01.128 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:01.328 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:01.531 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:01.744 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:02.329 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:02.515 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:02.693 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:02.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:03.047 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:03.227 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:03.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:03.581 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:03.760 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:03.943 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:04.124 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:04.306 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:04.502 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:04.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:04.863 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:05.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:05.225 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:05.412 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:05.580 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:05.750 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:05.929 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:06.106 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:06.280 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:06.452 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:06.641 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:06.832 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:07.020 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:07.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:07.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:07.582 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:07.760 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:07.963 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:08.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:08.346 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:08.547 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:08.726 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/laserGreen.png
+20:09:10.359 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+20:09:10.364 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+20:09:10.372 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+20:09:10.374 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+20:09:10.375 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+20:09:10.375 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+20:09:10.380 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+20:09:10.381 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+20:09:10.382 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+20:09:10.382 [JavaFX Application Thread] DEBUG AppStateMachine      - PlayState -> DialogSubState
+20:09:11.448 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+20:09:11.449 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+20:09:11.450 [JavaFX Application Thread] DEBUG AppStateMachine      - PlayState <- DialogSubState
+20:09:11.450 [JavaFX Application Thread] DEBUG FXGL                 - Exiting FXGL
+20:09:11.451 [JavaFX Application Thread] DEBUG FXGL                 - Shutting down background threads
+20:09:11.452 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+20:09:11.458 [JavaFX Application Thread] DEBUG DesktopFSService     - Writing to: system/fxgl.bundle
+20:09:11.464 [JavaFX Application Thread] DEBUG FXGL                 - Closing logger and exiting JavaFX
